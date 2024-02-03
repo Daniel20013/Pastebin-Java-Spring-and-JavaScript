@@ -1,0 +1,61 @@
+.container {
+    position: relative;
+    top: 10px;
+    height: 50rem;
+    background-color: rgb(200, 200, 200);
+}
+
+#title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    position: relative;
+    top: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#input {
+    position: relative;
+    top: 3%;
+    width: 94.7%;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#textsButton {
+    height: 77%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: 5%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#displayText {
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 1;
+}
+
+#buttonBack {
+    position: absolute;
+    top: 93%;
+    right: 2%;
+    display: none;
+    z-index: 1;
+}
+
+#buttonSave {
+    position: absolute;
+    top: 14.2%;
+    right: 1%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
