@@ -9,8 +9,8 @@ async function dataRetrieval() {
     const requestURL = "http://localhost:8080/api/v1/pastebin";
     const request = new Request(requestURL);
     const response = await fetch(request);
-    const date = await response.json();
-    return date;
+    const dataJson = await response.json();
+    return dataJson;
 }
 
 function textDisplay(obj, i) {
